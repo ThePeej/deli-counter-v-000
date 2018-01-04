@@ -3,8 +3,8 @@ def line(cust_array)
   if (cust_array.size == 0)
     puts "The line is currently empty."
   else
+    message = "The line is currently:"
     cust_array.each_with_index do |customer, index|
-      message = "The line is currently:"
       position = index + 1
       message << " #{position}. #{customer}"
     end
