@@ -1,4 +1,4 @@
-def line()
+def line(line)
   message = ""
   if (line.size == 0)
     puts "The line is currently empty."
@@ -12,4 +12,4 @@ def line()
   end
 end
 
-def take_a_number(line
+def take_a_number(line, new_customer)
