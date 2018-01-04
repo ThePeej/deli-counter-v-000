@@ -9,5 +9,5 @@ def line(cust_array)
       message << " #{position}. #{customer}"
     end
   end
-  message
+  puts message
 end
