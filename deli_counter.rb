@@ -11,4 +11,3 @@ def line(cust_array)
   end
   message
 end
-      
