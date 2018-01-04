@@ -17,3 +17,8 @@ def take_a_number(line, new_customer)
   puts "Welcome, #{new_customer}. You are number #{position} in line."
   line << new_customer
 end
+
+def now_serving(line)
+  puts "Currently serving #{line.first}"
+  line.shift
+end
