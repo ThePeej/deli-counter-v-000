@@ -8,6 +8,6 @@ def line(cust_array)
       position = index + 1
       message << " #{position}. #{customer}"
     end
+    puts message
   end
-  puts message
 end
